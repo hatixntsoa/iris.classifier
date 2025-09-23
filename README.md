@@ -1,68 +1,51 @@
-# Machine Learning Project Template 🤖
+# Iris Classifier 🌸🤖
 
-A professional **Machine Learning project template** designed for GitHub repositories connected to Kaggle.
-Use this as a starting point to keep your ML projects organized, reproducible, and production-ready.
+A professional **beginner-friendly Machine Learning project** designed to classify iris flowers using the famous [Iris Dataset](https://www.kaggle.com/code/drisrarahmad/iris-flower-dataset).  
+This project demonstrates the fundamentals of **supervised learning for classification**, implemented with **Linear Regression** and enhanced by **feature scaling** to improve model accuracy and robustness.  
+
+It is intended as a guided, reproducible project for those starting in Machine Learning, while maintaining production-ready structure and best practices for deployment and experimentation.
 
 ---
 
-## 📂 Project Structure
+## 🎯 Project Goals
 
-```
-.
-├── data
-│   ├── raw/              # Original datasets
-│   └── processes/        # Cleaned and feature-engineered data
-│
-├── notebooks/            # Jupyter / Kaggle notebooks
-│   └── ml.template.ipynb
-│
-├── src/
-│   ├── __init__.py       # Register as a package
-│   └── model_export.py   # Example code of model export
-│
-├── models/               # generated models
-│
-├── tests/                # Unit testing out the model
-│
-├── LICENSE.md            # License file
-├── README.md             # Project documentation
-├── requirements.txt      # Python dependencies
-└── .gitignore            # Ignore python related dependencies and environments
-```
+- Introduce **supervised learning** concepts in a real-world dataset.
+- Implement a **classification task** using **Linear Regression**.
+- Apply **feature scaling** for improving prediction accuracy.
+- Demonstrate **reproducibility and professional project structure** for ML workflows.
+- Provide export options for models across formats (Scikit-learn, TensorFlow, PyTorch, etc.).
 
 ---
 
 ## ⚙️ Setup
 
-You have **two ways** to use this template:
+You have **two ways** to use this project:
 
-### 🔹 Option 1 — Work directly on Kaggle
+### 🔹 Option 1 — Run on Kaggle
 
-1. Go to the [Machine Learning Project Template](https://github.com/hatixntsoa/machine.learning) repository on GitHub.
-2. Click the **“Use this template”** button and create a new repository.
-3. On Kaggle, create a new Notebook and choose **“Link to GitHub”** → select your repository.
-
-   * This keeps your exploratory work synced with GitHub.
-4. Start coding directly in Kaggle without installing anything locally.
+1. Visit the [Iris Classifier Repository](https://github.com/hatixntsoa/machine.learning) on GitHub.
+2. Click **“Use this template”** to create your own repository.
+3. On Kaggle, create a new Notebook and select **“Link to GitHub”** → choose your repository.
+4. Begin experimenting directly on Kaggle with zero installation overhead.
 
 ---
 
-### 🔹 Option 2 — Work locally or on your own cloud machine
+### 🔹 Option 2 — Run Locally or on a Cloud Machine
 
-1. Go to the [Machine Learning Project Template](https://github.com/hatixntsoa/machine.learning) repository on GitHub.
-2. Click the **“Use this template”** button and create a new repository.
-3. Clone your new repository:
+1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
-   ```
-4. Create a virtual environment:
+```bash
+git clone https://github.com/hatixntsoa/iris.classifier.git
+cd iris.classifier
+````
+
+2. Create a virtual environment:
 
    ```bash
    python -m venv .venv
    ```
-5. Activate the virtual environment:
+
+3. Activate the environment:
 
    * On Linux/Mac:
 
@@ -74,16 +57,28 @@ You have **two ways** to use this template:
      ```bash
      venv\Scripts\activate
      ```
-6. Install dependencies:
+
+4. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-Now you're good to go! 🚀
+---
+
+## 📊 Learning Outcomes
+
+By completing this project, you will:
+
+* Understand the **Iris Dataset** and its role in ML research.
+* Learn how to perform **data preprocessing and scaling**.
+* Train and evaluate a **Linear Regression classifier** for multi-class prediction.
+* Explore **export and deployment options** for trained models.
+* Gain confidence in building well-structured, reproducible ML pipelines.
 
 ---
 
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE.md).
+
